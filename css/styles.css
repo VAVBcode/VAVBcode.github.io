@@ -1,3 +1,4 @@
+/* ---------- Tokens ---------- */
 :root {
   --bg: #0b1020;
   --surface: #121a30;
@@ -54,7 +55,8 @@ a { color: inherit; }
 }
 
 /* ---------- Secciones ---------- */
-main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.25rem; }
+/* Contenedor centrado: se aplica directo a cada bloque */
+.hero, .section { width: min(100% - 2.5rem, var(--maxw)); margin-inline: auto; }
 .section { padding: 4.5rem 0 1rem; }
 .section > h2 { font-size: clamp(1.7rem, 3vw, 2.2rem); margin-bottom: 1.75rem; }
 .section > h2::after {

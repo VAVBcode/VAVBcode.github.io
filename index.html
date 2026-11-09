@@ -1,7 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Víctor Villacís | Ciencia de Datos e IA</title>
+  <meta name="description" content="Portafolio de Víctor Villacís, estudiante de Ingeniería en Ciencia de Datos e Inteligencia Artificial en la ESPOL.">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <header class="nav">
+    <a class="nav__brand" href="#inicio">vavbcode</a>
+    <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">Menú</button>
+    <nav id="menu" class="nav__links">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  
+   <!-- Inicio -->
+    <section id="inicio" class="hero">
+      <div class="hero__text">
+        <h1>Víctor Villacís</h1>
+        <p class="hero__role">Estudiante de Ingeniería en Ciencia de Datos e Inteligencia Artificial en la ESPOL</p>
+        <p class="hero__lead">Me interesa entender cómo aprenden los modelos y convertir datos en soluciones que funcionen.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn" href="#contacto">Contactarme</a>
+        </div>
+      </div>
+
+      <figure class="terminal" aria-label="Resumen de perfil en código Python">
+        <div class="terminal__bar">
+          <span></span><span></span><span></span>
+          <figcaption>perfil.py</figcaption>
+        </div>
+<pre class="terminal__code"><code><span style="--i:0"><span class="k">class</span> <span class="f">Victor</span>:</span>
+<span style="--i:1">    nombre       = <span class="s">"Víctor Villacís"</span></span>
+<span style="--i:2">    carrera      = <span class="s">"Ciencia de Datos e IA"</span></span>
+<span style="--i:3">    universidad  = <span class="s">"ESPOL"</span></span>
+<span style="--i:4">    bachiller_en = <span class="s">"Informática"</span></span>
+<span style="--i:5">    stack        = [<span class="s">"Python"</span>, <span class="s">"SQL"</span>, <span class="s">"R"</span>,</span>
+<span style="--i:6">                    <span class="s">"Java"</span>, <span class="s">"JavaScript"</span>]</span>
+<span style="--i:7"></span>
+<span style="--i:8">    <span class="k">def</span> <span class="f">aprendiendo</span>(self):</span>
+<span style="--i:9">        <span class="k">return</span> <span class="s">"siempre"</span><span class="cursor"></span></span></code></pre>
+      </figure>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section">
+      <h2>Sobre mí</h2>
+      <div class="prose">
+        <p>Soy estudiante de Ingeniería en Ciencia de Datos e Inteligencia Artificial en la ESPOL. Me apasiona la programación y entender cómo funciona la inteligencia artificial por dentro: cómo aprenden los modelos, cómo se procesan los datos y cómo todo eso se convierte en soluciones reales.</p>
+        <p>Mi camino empezó antes de la universidad: soy bachiller en Informática, y esa base técnica me llevó a seguir estudiando datos e IA. Hoy disfruto programar, resolver problemas y aprender con cada proyecto que construyo.</p>
+      </div>
+    </section>
+
 </body>
 </html>
